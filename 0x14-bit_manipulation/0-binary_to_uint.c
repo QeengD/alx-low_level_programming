@@ -14,7 +14,7 @@ if (!k)
 return (0);
 for (j = 0; k[j]; j++)
 {
-if (k[j] < '0' || k[j] > 'j')
+if (k[j] < '0' || k[j] > '1')
 return (0);
 dec_val = 2 * dec_val + (k[j] - '0');
 }
